@@ -2,9 +2,15 @@ import 'package:codepurflutter/home_page.dart';
 import 'package:codepurflutter/utils/routes.dart';
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatelessWidget {
+class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
 
+  @override
+  State<LoginPage> createState() => _LoginPageState();
+}
+
+class _LoginPageState extends State<LoginPage> {
+  String name = "";
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -16,9 +22,9 @@ class LoginPage extends StatelessWidget {
             fit: BoxFit.cover,
           ),
 
-          const Text(
-            'Welcome to login page',
-            style: TextStyle(
+          Text(
+            'Welcome to login page $name',
+            style: const TextStyle(
               fontSize: 25,
             ),
           ),
@@ -31,6 +37,10 @@ class LoginPage extends StatelessWidget {
                     hintText: "Enter a user name",
                     labelText: "UserName",
                   ),
+                  onChanged: (value) {
+                    name = value;
+                    setState(() {});
+                  },
                 ),
                 // const SizedBox(
                 //   height: 20,
