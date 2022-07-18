@@ -1,3 +1,5 @@
+import 'package:codepurflutter/home_page.dart';
+import 'package:codepurflutter/utils/routes.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -43,7 +45,18 @@ class LoginPage extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
-                ElevatedButton(onPressed: () {}, child: const Text('Login'))
+                ElevatedButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, MyRoutes.homeRoute);
+                  },
+                  style: TextButton.styleFrom(
+                    minimumSize: const Size(150, 50),
+                  ),
+                  child: const Text(
+                    'Login',
+                    style: TextStyle(fontSize: 20),
+                  ),
+                )
               ],
             ),
           )
