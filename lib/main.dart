@@ -1,8 +1,10 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:codepurflutter/home_page.dart';
 import 'package:codepurflutter/login_page.dart';
 import 'package:codepurflutter/utils/routes.dart';
+import 'package:codepurflutter/widgets/theme.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,11 +19,7 @@ class MyApp extends StatelessWidget {
       // home: const HomePage(),
       themeMode: ThemeMode.light,
       darkTheme: ThemeData(brightness: Brightness.dark),
-      theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-        fontFamily: GoogleFonts.lato().fontFamily,
-        // primaryTextTheme: GoogleFonts.latoTextTheme(),
-      ),
+      theme: MyTheme.LightTheme(context),
       routes: {
         "/": (context) => const HomePage(),
         MyRoutes.homeRoute: (context) => const HomePage(),
