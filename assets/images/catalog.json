@@ -1,0 +1,28 @@
+{
+  "products":[
+    {
+      "id":"Codepur001",
+      "name":"iphone 11 pro",
+      "desc":"Apple iphone 11th generation",
+      "price":999,
+      "color": "#33545a",
+      "image": "https://scontent.fktm8-1.fna.fbcdn.net/v/t1.6435-9/107931856_420527058905025_3024796061417821035_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ecuN4nKNQssAX85VWQE&tn=F8gC6XDDojdZmyVI&_nc_ht=scontent.fktm8-1.fna&oh=00_AT_txZftzHf7lXGILEYshXOsG81_KKirIVzTdPIVssHy9Q&oe=62FB995A"
+    },
+    {
+      "id":"Codepur002",
+      "name":"iphone 12 pro",
+      "desc":"Apple iphone 12th generation",
+      "price":9999,
+      "color": "#33505a",
+      "image": "https://scontent.fktm8-1.fna.fbcdn.net/v/t1.6435-9/107931856_420527058905025_3024796061417821035_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ecuN4nKNQssAX85VWQE&tn=F8gC6XDDojdZmyVI&_nc_ht=scontent.fktm8-1.fna&oh=00_AT_txZftzHf7lXGILEYshXOsG81_KKirIVzTdPIVssHy9Q&oe=62FB995A"
+    },
+    {
+      "id":"Codepur003",
+      "name":"iphone 10 pro",
+      "desc":"Apple iphone 10th generation",
+      "price":3999,
+      "color": "#33505a",
+      "image": "https://scontent.fktm8-1.fna.fbcdn.net/v/t1.6435-9/107931856_420527058905025_3024796061417821035_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ecuN4nKNQssAX85VWQE&tn=F8gC6XDDojdZmyVI&_nc_ht=scontent.fktm8-1.fna&oh=00_AT_txZftzHf7lXGILEYshXOsG81_KKirIVzTdPIVssHy9Q&oe=62FB995A"
+    }
+  ]
+}
