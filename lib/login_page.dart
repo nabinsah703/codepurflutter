@@ -97,8 +97,9 @@ class _LoginPageState extends State<LoginPage> {
                                 ? BoxShape.circle
                                 : BoxShape.rectangle,
                             // borderRadius: BorderRadius.circular(10),
-                            color:
-                                changeButton ? Colors.deepPurple : Colors.red),
+                            color: changeButton
+                                ? Colors.deepPurple
+                                : Colors.purple),
                         height: 50,
                         width: changeButton ? 50 : 150,
                         // color: Colors.deepPurple,

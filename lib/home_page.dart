@@ -1,3 +1,4 @@
+import 'package:codepurflutter/widgets/my_drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -12,7 +13,7 @@ class HomePage extends StatelessWidget {
       body: const Center(
         child: Text('hello flutter'),
       ),
-      drawer: Drawer(),
+      drawer: const MyDrawer(),
     );
   }
 }
